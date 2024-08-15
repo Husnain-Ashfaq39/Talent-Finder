@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Platform Overview
 
-## Getting Started
+## 1. Platform Structure
+- **Multilingual Support:** The platform must support French, English, and German languages.
+- **User Roles:**
+  - **Job Seekers:** Register, create profiles, upload CVs to prefill profiles (plus templates to extract profile), search for jobs, and upload diplomas/degrees with a title.
+  - **Employers:** Post job listings, search for candidates, and manage applications.
+  - **Admins:** Manage users, content, validate job postings before they go live, and access analytics.
+- **Application Management:** Track applications, statuses, and responses.
+- **Professional Recognition Assistance:** Guidance for international qualifications recognition.
+- **Visa and Relocation Services:** Information and support for visa applications, language courses, and accommodation.
+- **Interview and Communication Tools:** Integrated video calling, chat, and scheduling.
+- **Content Management System (CMS):** Manage blogs, articles, and user guides.
+- **Notifications:** Email and in-app notifications for job postings, application updates, and messaging.
 
-First, run the development server:
+## 2. User Interface
+- **Responsive Design:** The platform should be mobile-friendly.
+- **Localization:** Language-specific content, dates, and formats.
+- **Dashboard:**
+  - **Job Seekers:** View and apply for jobs, track applications, and receive personalized job suggestions.
+  - **Employers:** Manage job postings, view applications, and shortlist candidates.
+- **Profile Management:** Detailed profile management for both job seekers and employers, including photos and verification badges.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 3. Features for Job Seekers
+- **Job Search Filters:** By location, industry, experience level, language, category, and sub-category.
+- **Skill Matching:** Match candidates with jobs based on their profiles and skills.
+- **Application Management:** Track submitted applications and receive notifications.
+- **Resources:** Access visa consultation, language courses, and accommodation support, validated after a match on the profile from an employer.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 4. Features for Employers
+- **Job Posting Management:** Create, edit, and manage job listings with category and sub-category options for workers, trainees, and working students.
+- **Candidate Search:** Search for candidates using filters such as skill set, experience, location, category, and subcategory, with profile matching percentages.
+- **Application Tracking:** Review and manage applications with profile matching.
+- **Company Profile:** Create and manage company profiles with branding elements.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 5. Additional Services
+- **Visa & Immigration Assistance:** Step-by-step guides, consultation services, and application tracking for work visas.
+- **Language Courses:** Integration with language learning platforms for French, English, and German.
+- **Accommodation Support:** Assistance with finding housing in Germany.
+- **Recognition of Professional Qualifications:** Guides and support for validating foreign qualifications in Germany.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 6. Technical Specifications
+- **Backend:** Robust CMS to manage users, jobs, and content.
+- **Database:** Scalable database system.
+- **APIs:** Integration with third-party services for language courses, visa tracking, etc.
+- **Security:** Implement SSL, data encryption, and GDPR compliance.
+- **Performance:** Fast loading times, optimized queries, and CDN integration.
 
-## Learn More
+## 7. Integration and Analytics
+- **CRM Integration:** To manage leads and employer interactions.
+- **Analytics:** Track user engagement, job postings, application rates, and other key metrics.
+- **SEO Optimization:** Rank well in search engines for relevant keywords in French, English, and German.
 
-To learn more about Next.js, take a look at the following resources:
+## 8. Communication and Support
+- **Notifications:** Email and SMS alerts for job postings, application status, and updates.
+- **Customer Support:** Live chat, email, and phone support in all three languages.
+- **Community Forums:** For peer support and discussions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 9. Legal and Compliance
+- **Terms & Conditions:** Clear terms for both job seekers and employers.
+- **Privacy Policy:** Detailed policy outlining data usage and protection measures.
+- **GDPR Compliance:** Ensuring the platform meets EU data protection standards.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 10. Monetization Strategy
+- **Freemium Model:** Basic features free with premium services for a fee.
+- **Subscription Plans:** Monthly or yearly subscription plans for employers to post jobs and access additional features.
+- **Commission System:** Admin should be able to set commission for a match for the three options: worker, trainee, and working student.
