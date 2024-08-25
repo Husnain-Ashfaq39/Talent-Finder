@@ -1,4 +1,3 @@
-
 'use client'
 
 import Link from "next/link";
@@ -36,9 +35,9 @@ const DefaulHeader2 = () => {
             <div className="logo">
               <Link href="/">
                 <Image
-                  width={153}
-                  height={60}
-                  src="/images/logo.svg"
+                  width={98}
+                  height={1}
+                  src="/images/jordii-logo.png"
                   alt="brand"
                 />
               </Link>
@@ -58,14 +57,9 @@ const DefaulHeader2 = () => {
           </Link>
           {/* <!-- Login/Register --> */}
           <div className="btn-box">
-            <a
-              href="#"
-              className="theme-btn btn-style-three call-modal"
-              data-bs-toggle="modal"
-              data-bs-target="#loginPopupModal"
-            >
+            <Link href="/register" className="theme-btn btn-style-three">
               Login / Register
-            </a>
+            </Link>
             <Link
               href="/employers-dashboard/post-jobs"
               className="theme-btn btn-style-one"
